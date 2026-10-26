@@ -7,13 +7,13 @@
 ssh登录后`sudo -i`切换到root
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/SadYuyuko/CatDrive-Disk-Auto-Sleep/main/catdisk-sleep.sh | sudo sh -s install
+curl -sSL https://raw.githubusercontent.com/Carteahere/CatDrive-Disk-Auto-Sleep/main/catdisk-sleep.sh | sudo sh -s install
 ```
 
 ## 临时生效（不安装、不写入开机自启）
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/SadYuyuko/CatDrive-Disk-Auto-Sleep/main/catdisk-sleep.sh | sudo sh -s run
+curl -sSL https://raw.githubusercontent.com/Carteahere/CatDrive-Disk-Auto-Sleep/main/catdisk-sleep.sh | sudo sh -s run
 ```
 
 ## 其他命令
@@ -32,13 +32,13 @@ curl -sSL https://raw.githubusercontent.com/SadYuyuko/CatDrive-Disk-Auto-Sleep/m
 例如查看状态：
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/SadYuyuko/CatDrive-Disk-Auto-Sleep/main/catdisk-sleep.sh | sudo sh -s status
+curl -sSL https://raw.githubusercontent.com/Carteahere/CatDrive-Disk-Auto-Sleep/main/catdisk-sleep.sh | sudo sh -s status
 ```
 
 ## 卸载
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/SadYuyuko/CatDrive-Disk-Auto-Sleep/main/catdisk-sleep.sh | sudo sh -s uninstall
+curl -sSL https://raw.githubusercontent.com/Carteahere/CatDrive-Disk-Auto-Sleep/main/catdisk-sleep.sh | sudo sh -s uninstall
 ```
 
 卸载会移除开机自启钩子 `/usr/local/etc/rc.d/S99catdisk-sleep.sh` 与已安装脚本，并恢复群晖原厂的 `pkg-scsit-monitor.service`。
